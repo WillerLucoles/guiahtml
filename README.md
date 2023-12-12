@@ -1,4 +1,4 @@
-# Explorando HTML5
+# Explorando HTML
 
 Este é um projeto simples que demonstra o uso básico de HTML para criar uma página web explicativa. A página abrange conceitos como parágrafos, listas, links, imagens, vídeos, tabelas, títulos e fornece uma introdução ao HTML5.
 
