@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorando HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="topo">
+        <h1>Manual HTML</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#introducao">Introdução</a></li>
+            <li><a href="#titulos">Títulos</a></li>
+            <li><a href="#paragrafos">Parágrafos e Quebras de Linha</a></li>
+            <li><a href="#listas">Listas</a></li>
+            <li><a href="#links">Links</a></li>
+            <li><a href="#imagens">Imagens</a></li>
+            <li><a href="#videos">Vídeos</a></li>
+            <li><a href="#tabelas">Tabelas</a></li>
+            
+        </ul>
+    </nav>
+
+    <section id="introducao">
+        <h2>Introdução ao HTML5</h2>
+        <p>O HTML (Hypertext Markup Language) é a linguagem fundamental para a criação e estruturação de conteúdo na web. Ele utiliza uma abordagem de "marcação" para definir elementos que compõem uma página, permitindo a apresentação de informações em navegadores da internet.</p>
+        <p>Funcionalidades do HTML:</p>
+        <ul>
+            <li><strong>Estruturação:</strong> O HTML fornece tags que permitem estruturar o conteúdo de uma página, como parágrafos (<code>&lt;p&gt;</code>), títulos (<code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, etc.) e listas (<code>&lt;ul&gt;</code>, <code>&lt;ol&gt;</code>).</li>
+            <li><strong>Links e Navegação:</strong> Através da tag <code>&lt;a&gt;</code>, é possível criar links para outras páginas, recursos ou locais na mesma página.</li>
+            <li><strong>Multimídia:</strong> O HTML5 introduziu suporte nativo para áudio (<code>&lt;audio&gt;</code>) e vídeo (<code>&lt;video&gt;</code>), permitindo a incorporação de elementos multimídia diretamente nas páginas.</li>
+            <li><strong>Formulários:</strong> Utilizando tags como <code>&lt;form&gt;</code>, <code>&lt;input&gt;</code>, e outras, o HTML permite a criação de formulários interativos para coleta de dados do usuário.</li>
+        </ul>
+        <p>A evolução do HTML ocorreu ao longo de diversas versões, sendo o HTML5 a mais recente. Cada nova versão trouxe aprimoramentos, novas funcionalidades e melhorias na semântica, proporcionando uma experiência de desenvolvimento mais rica e flexível.</p>
+        <p><a href="#topo">Voltar ao Início</a></p>
+    </section>
+
+    <section id="titulos">
+        <h2>Títulos</h2>
+        <p>Os títulos são importantes para estruturar a hierarquia do conteúdo em uma página. Eles vão de <code>&lt;h1&gt;</code> a <code>&lt;h6&gt;</code>, onde <code>&lt;h1&gt;</code> é o título mais importante e <code>&lt;h6&gt;</code> é o menos importante.</p>
+        <pre>
+            &lt;h1&gt;Este é um Título de Nível 1&lt;/h1&gt;
+            &lt;h2&gt;Este é um Título de Nível 2&lt;/h2&gt;
+            &lt;h3&gt;Este é um Título de Nível 3&lt;/h3&gt;
+        </pre>
+        <p>Utilize títulos de forma consistente para melhorar a acessibilidade e a compreensão do conteúdo.</p>
+        <p><a href="#topo">Voltar ao Início</a></p>
+    </section>
+
+    <section id="paragrafos">
+        <h2>Parágrafos e Quebras de Linha</h2>
+        <p>Os parágrafos são criados usando a tag <code>&lt;p&gt;</code>, e as quebras de linha podem ser feitas com a tag <code>&lt;br&gt;</code>.</p>
+        <p>Exemplo de parágrafo:</p>
+        <pre>
+            &lt;p&gt;Este é um parágrafo de exemplo.&lt;/p&gt;
+        </pre>
+        <p>Exemplo de quebra de linha:</p>
+        <pre>
+            Texto antes da quebra&lt;br&gt;Texto após a quebra.
+        </pre>
+        <p><a href="#topo">Voltar ao Início</a></p>
+    </section>
+
+    <section id="listas">
+        <h2>Listas</h2>
+        <h3>Listas Ordenadas</h3>
+        <p>Listas ordenadas são criadas usando a tag <code>&lt;ol&gt;</code>, e cada item é representado por <code>&lt;li&gt;</code>.</p>
+        <pre>
+            &lt;ol&gt;
+                &lt;li&gt;Item 1&lt;/li&gt;
+                &lt;li&gt;Item 2&lt;/li&gt;
+                &lt;li&gt;Item 3&lt;/li&gt;
+            &lt;/ol&gt;
+        </pre>
+
+        <h3>Listas Não Ordenadas</h3>
+        <p>Listas não ordenadas são criadas usando a tag <code>&lt;ul&gt;</code>, e cada item é representado por <code>&lt;li&gt;</code>.</p>
+        <pre>
+            &lt;ul&gt;
+                &lt;li&gt;Item A&lt;/li&gt;
+                &lt;li&gt;Item B&lt;/li&gt;
+                &lt;li&gt;Item C&lt;/li&gt;
+            &lt;/ul&gt;
+        </pre>
+        <p><a href="#topo">Voltar ao Início</a></p>
+    </section>
+
+    <section id="links">
+        <h2>Links</h2>
+        <p>Você pode criar links usando a tag <code>&lt;a&gt;</code>. O atributo <code>href</code> especifica o destino do link.</p>
+        <pre>
+            &lt;a href="https://www.exemplo.com"&gt;Link de Exemplo&lt;/a&gt;
+        </pre>
+        <p>Além disso, você pode adicionar atributos como <code>target="_blank"</code> para abrir o link em uma nova guia.</p>
+        <pre>
+            &lt;a href="https://www.exemplo.com" target="_blank"&gt;Abrir em Nova Guia&lt;/a&gt;
+        </pre>
+        <p><a href="#topo">Voltar ao Início</a></p>
+    </section>
+
+    <section id="imagens">
+        <h2>Imagens</h2>
+        <p>Para adicionar imagens, use a tag <code>&lt;img&gt;</code>. O atributo <code>src</code> especifica o caminho da imagem, e <code>alt</code> fornece um texto alternativo.</p>
+        <pre>
+            &lt;img src="caminho/para/sua/imagem.jpg" alt="Descrição da imagem"&gt;
+        </pre>
+        <p><a href="#topo">Voltar ao Início</a></p>
+    </section>
+
+    <section id="videos">
+        <h2>Vídeos</h2>
+        <p>Para incorporar vídeos, use a tag <code>&lt;video&gt;</code>. O atributo <code>controls</code> adiciona controles de reprodução.</p>
+        <pre>
+            &lt;video width="320" height="240" controls&gt;
+                &lt;source src="caminho/para/seu/video.mp4" type="video/mp4"&gt;
+                Seu navegador não suporta o elemento de vídeo.
+            &lt;/video&gt;
+        </pre>
+        <p><a href="#topo">Voltar ao Início</a></p>
+    </section>
+
+    <section id="tabelas">
+        <h2>Tabelas</h2>
+        <p>Use as tags <code>&lt;table&gt;</code>, <code>&lt;tr&gt;</code> para linhas, <code>&lt;td&gt;</code> para células e <code>&lt;th&gt;</code> para cabeçalhos de tabela.</p>
+        <pre>
+            &lt;table border="1"&gt;
+                &lt;tr&gt;
+                    &lt;th&gt;Nome&lt;/th&gt;
+                    &lt;th&gt;Sobrenome&lt;/th&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;João&lt;/td&gt;
+                    &lt;td&gt;Silva&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;Maria&lt;/td&gt;
+                    &lt;td&gt;Souza&lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+        </pre>
+        <p><a href="#topo">Voltar ao Início</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2023 Seu Nome. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
